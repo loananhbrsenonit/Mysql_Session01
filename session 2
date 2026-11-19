@@ -1,0 +1,11 @@
+-- 1.Tao database
+Create DATABASE IF NOT EXISTS QuanLySinhVien;
+-- 2. su dung database
+USE QuanLySinhVien;
+-- 3. Tao bang students
+CREATE TABLE IF NOT EXISTS students (
+student_id VARCHAR(20) PRIMARY KEY,
+full_name VARCHAR(100),
+date_of_birth DATE,
+gender VARCHAR(10)
+);
