@@ -1,0 +1,4 @@
+SELECT * FROM quanlysinhvien.sinhvien;
+insert INTO SinhVien 
+(MaSinhVien, HoTen, NgaySinh, GioiTinh, Diachi, SoDienThoai, Email, LopHoc)
+values (`SV002`, `Nguyen Van b` ,`2000-12-30`, `Nu`, `HANOI`, `092218903`, `A@gmail.com`, `CNTp`);
